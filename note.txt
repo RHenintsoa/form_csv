@@ -1,0 +1,2 @@
+$_REQUEST : ahafahan'ny navigateur mihainony demande client
+$_GET : no méthode request par défaut ny navigateur, donc mila apetraka fona ny method surtout raha POST ilay method pour sécuriser les données.
