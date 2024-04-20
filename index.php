@@ -101,7 +101,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-
 // Lecture des données du fichier CSV et affichage dans un tableau HTML
 echo "<table border='1'>";
 echo "<tr><th>Nom</th><th>Prénom</th><th>Adresse</th></tr>";
