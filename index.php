@@ -46,27 +46,6 @@
     </div>
 
     <?php
-    //Déclaration erreur
-    // $nameErr = "";
-    // if($_SERVER["REQUEST_METHOD"] == "POST"){
-    //     if(empty($_POST['name'])){
-    //         $nameErr = "Le nom est obligatoire";
-    //     }else{
-    //         $name = $_POST['name'];
-    //         if(!preg_match("/^[a-za-Z]*$/",$name)){
-    //             $nameErr = "Le nom doit contenir seulement des alphabets";
-    //         }
-    //     }
-    //     $firstname = $_POST['firstname'];
-    //     $adress = $_POST['adress'];
-    //         if(file_exists('data.csv')){
-    //             $fichier = fopen("data.csv", "a");
-    //             fputcsv($fichier, [$name, $firstname,$adress]);
-    //     }
-    //     $fichier = fopen("data.csv", "a+");
-    //     fputcsv($fichier, [$name, $firstname,$adress]);
-
-    // }
     $nameErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
